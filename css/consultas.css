@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+html,body{
+  background-color: gray;
+  /* color: white; */
+  text-transform:capitalize;
+}
+#Propuesta{text-transform: capitalize;}
+#navv1{
+  /* list-style: none; */
+
+}
+#Candidato{color:blue;}
+#nav
+{
+  /* background-color: black; */
+  list-style:none;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+  /* height: 37px; */
+}
+label
+{
+  padding-left: 10px;
+
+}
+#lista{
+  white-space: pre-line;
+
+}
+#candidato{color: red;}
+
+
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: gray;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-weight: bold;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
